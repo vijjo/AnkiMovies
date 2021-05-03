@@ -179,6 +179,11 @@ anki-editable img {
     max-width: 300px;
 }
 ```
+Nếu bị lỗi `You do not have permission to open this file . Please see the owner or the admisnistrator.` thì cả nhà:
+* Tắt `Anki` đi.
+* Copy file `editable.css` tạm ra chỗ khác, ví dụ ra `Desktop`
+* Chỉnh file ở chỗ khác đấy, lưu lại.
+* Copy ngược lạ file `editable.css` đã chỉnh đè vào file ở thư mục gốc.
 
 **CSS Beautifier:**
 https://www.freeformatter.com/css-beautifier.html
