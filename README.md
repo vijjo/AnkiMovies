@@ -94,7 +94,7 @@ Nếu không có thư mục `mpv`, chịu khó làm theo bước sau:
 * Lên trang này: https://sourceforge.net/projects/mpv-player-windows/files/
 * Download bản 64/32 bit xuống, tuỳ win
 * Giải nén ra, sửa folder thành `mpv` và di nó ổ `C:\` giống như cài `ffmpeg`. 
-* Sau đó cũng chỉnh `Path` trong `Environment Variable` đến cái `C:\mpv` tương tự `ffmpeg`
+* Sau đó cũng chỉnh `Path` trong `Environment Variables` đến cái `C:\mpv` tương tự `ffmpeg`
 * Làm vậy xong thì vào trong `%APPDATA%` không có `mpv` thì cứ tạo thư mục đấy ra thôi.
 
 Trong **Mac**:
