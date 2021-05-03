@@ -1,6 +1,11 @@
 # AnkiMovies
 
-## Link bộ Inception:
+[TOC]
+
+
+
+## Bộ Inception
+
 https://1drv.ms/u/s!Au96OifgcsxQhvwjeOlMLZ36huYsHA?e=ERFoGK
 * New cards/day: 9999
 * Maximum reviews/day: 9999
@@ -71,8 +76,12 @@ Chỉnh thêm `speed`.
 Advanced Browser: https://ankiweb.net/shared/info/874215009
 
 ### Find and replace:
-```\{[^}]*\}```
-```\s*<[^>]*>\s*```
+```
+\{[^}]*\}
+```
+```
+\s*<[^>]*>\s*
+```
 
 ### Tạo và sắp xếp lại các fields
 1. Video
