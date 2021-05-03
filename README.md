@@ -13,12 +13,12 @@
     * [Persistent properties:](#persistent-properties)
 * [Turn on Clipboard History](#turn-on-clipboard-history)
 * [Chỉnh trong Browse](#chỉnh-trong-browse)
-    * [Find and replace:](#find-and-replace)
+    * [Find and replace](#find-and-replace)
     * [Tạo và sắp xếp lại các fields](#tạo-và-sắp-xếp-lại-các-fields)
     * [Chỉnh size của image trong Editor:](#chỉnh-size-của-image-trong-editor)
 * [Export to csv](#export-to-csv)
     * [Tạo IPA](#tạo-ipa)
-    * [Tạo hint:](#tạo-hint)
+    * [Tạo hint](#tạo-hint)
     * [Tạo google translate](#tạo-google-translate)
 
 
@@ -95,7 +95,7 @@ Chỉnh thêm `speed`.
 ## Chỉnh trong Browse
 Advanced Browser: https://ankiweb.net/shared/info/874215009
 
-### Find and replace:
+### Find and replace
 ```
 \{[^}]*\}
 ```
@@ -139,7 +139,7 @@ https://docs.google.com/spreadsheets/u/0/
 ### Tạo IPA
 https://tophonetics.com/
 
-### Tạo hint:
+### Tạo hint
 ```
 =if(or(exact(C1,"), isblank(C1)), ", if(iserr(FIND( , C1)),CONCATENATE(left(C1, 1), ,REGEXREPLACE(mid(C1, 2, len(C1)-2),[a-z], _ ),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,\b , ), \B([a-z]), _)))
 ```
