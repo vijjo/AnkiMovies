@@ -218,10 +218,10 @@ https://tophonetics.com/
 
 ### Tạo thêm phím tắt ctrl g
 
-Sửa trong file của **Edit audios in the external editor**
+Sửa trong file của **Edit audios in the external editor**, thêm:
 ```
 action = QAction("Edit audios", aqt.mw)
-action.setShortcut(QKeySequence('g'))
+action.setShortcut(QKeySequence('ctrl+g'))
 action.triggered.connect(handleOpenAudios)
 menu.addAction(action)
 ```
