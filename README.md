@@ -58,7 +58,7 @@ https://www.gyan.dev/ffmpeg/builds/
 
 Bật `Edit the system environment variables`.
 
-Thêm đường dẫn tới `ffmpeg/bin`.
+Thêm đường dẫn tới `ffmpeg\bin`.
 
 Hướng dẫn chi tiết:
 https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
