@@ -15,7 +15,7 @@
 * [Chỉnh trong Browse](#chỉnh-trong-browse)
     * [Find and replace](#find-and-replace)
     * [Tạo và sắp xếp lại các fields](#tạo-và-sắp-xếp-lại-các-fields)
-    * [Chỉnh size của image trong Editor:](#chỉnh-size-của-image-trong-editor)
+    * [Chỉnh size của image trong Editor](#chỉnh-size-của-image-trong-editor)
 * [Export to csv](#export-to-csv)
     * [Tạo IPA](#tạo-ipa)
     * [Tạo hint](#tạo-hint)
@@ -131,15 +131,15 @@ Advanced Browser: https://ankiweb.net/shared/info/874215009
 12. Video Sound
 13. Audio Sound
 
-### Chỉnh size của image trong Editor:
-
-Chỉnh file `editable.css`
+### Chỉnh size của image trong Editor
 
 **Mac:**
 `/Applications/Anki.app/Contents/Resources/aqt_data/web/css/`
 
 **Win:**
 `C:\Program Files\Anki\aqt_data\web\css\`
+
+Chỉnh file `editable.css`
 
 **CSS Beautifier:**
 https://www.freeformatter.com/css-beautifier.html
