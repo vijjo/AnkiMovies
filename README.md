@@ -189,7 +189,7 @@ https://tophonetics.com/
 ```
 ### Tạo google translate
 ```
-=GOOGLETRANSLATE(C1, en, vi)
+=GOOGLETRANSLATE(C1, "en", "vi")
 ```
 
 ## Phím tắt
