@@ -32,12 +32,12 @@
 
 [Link download](https://1drv.ms/u/s!Au96OifgcsxQhvwjeOlMLZ36huYsHA?e=ERFoGK)
 
-Chỉnh `Options`:
-* New cards/day: 9999
-* Maximum reviews/day: 9999
+Chỉnh Options:
+* `New cards/day`: 9999
+* `Maximum reviews/day`: 9999
 
 Đừng tick
-* Always include question side when replaying audio
+* `Always include question side when replaying audio`
 
 ## Cài Add-ons
 1. Watch Foreign Language Movies with Anki: https://bit.ly/3xIXl2L
