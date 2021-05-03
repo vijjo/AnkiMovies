@@ -100,6 +100,7 @@ geometry=50%:50%
 
 ### Persistent properties
 https://github.com/d87/mpv-persist-properties
+
 Chỉnh thêm `speed`.
 
 ## Turn on Clipboard History
