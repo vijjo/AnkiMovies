@@ -6,11 +6,10 @@
 * [Cài Add-ons](#cài-add-ons)
 * [FFmpeg](#ffmpeg)
     * [Win](#win)
-        * [Add to the PATH on Windows 10](#add-to-the-path-on-windows-10)
     * [Mac](#mac)
 * [mpv](#mpv)
     * [Visual Studio Code](#visual-studio-code)
-    * [Chỉnh Config](###chỉnh-config)
+    * [Chỉnh Config](#chỉnh-config)
     * [Persistent properties](#persistent-properties)
 * [Turn on Clipboard History](#turn-on-clipboard-history)
 * [Chỉnh trong Browse](#chỉnh-trong-browse)
@@ -21,6 +20,11 @@
     * [Tạo IPA](#tạo-ipa)
     * [Tạo hint](#tạo-hint)
     * [Tạo google translate](#tạo-google-translate)
+* [Phím tắt](#phím-tắt)
+    * [Phím tắt Watch Foreign Language Movies with Anki](#phím-tắt-watch-foreign-language-movies-with-anki)
+    * [Phím tắt nếu đặt AutoHotkey](#phím-tắt-nếu-đặt-autohotkey)
+    * [Tạo thêm phím tắt ctrl+g](#tạo-thêm-phím-tắt-ctrl-g)
+* [AutoHotkey](#autohotkey)
 
 
 
@@ -36,7 +40,7 @@ Chỉnh `Options`:
 * Always include question side when replaying audio
 
 ## Cài Add-ons
-1. Watch Foreign Language Movies with Anki https://bit.ly/3xIXl2L
+1. Watch Foreign Language Movies with Anki: https://bit.ly/3xIXl2L
 2. Advanced Browser
 3. Anki Zoom
 4. Batch Editing
@@ -154,3 +158,60 @@ https://tophonetics.com/
 ```
 =GOOGLETRANSLATE(C1, en, vi)
 ```
+
+## Phím tắt
+
+### Phím tắt Watch Foreign Language Movies with Anki
+`R` – chơi lại
+
+`Ctrl+R` – chơi lại video
+
+`Shift+R` - chơi liên tục
+
+`[` - chơi lại card hiện tại và card trước
+
+`]` - chơi lại card hiện tại và card tiếp theo
+
+`Shift+[` - gộp card hiện tại và card trước
+
+`Shift+]` - gộp card hiện tại và card sau
+
+`,` – chỉnh mpv chơi sớm 0.25s
+
+`.` – chỉnh mpv chơi muộn 0.25s
+
+`<` (`Shift+,`) – chỉnh mpv kết thúc sớm 0.25s
+
+`>` (`Shift+.`) – chỉnh mpv kết thúc muộn 0.25s
+
+`Ctrl+Shift+,` – chỉnh thời gian bắt đầu quay lại mặc định
+
+`Ctrl+Shift+.` – chỉnh thời gian kết thúc quay lại mặc định
+
+### Phím tắt nếu đặt AutoHotkey
+
+`Ctrl + F` – tăng mốc thời gian lên 200ms
+
+`Ctrl + D` – giảm mốc thời gian đi 200ms
+
+`Ctrl + Win + F` – tăng mốc thời gian lên 100ms
+
+`Ctrl + Wind + D` – giảm mốc thời gian xuống 100ms
+
+### Tạo thêm phím tắt ctrl g
+
+Sửa trong file của **Edit audios in the external editor**
+```
+action = QAction("Edit audios", aqt.mw)
+action.setShortcut(QKeySequence('g'))
+action.triggered.connect(handleOpenAudios)
+menu.addAction(action)
+```
+
+## AutoHotkey
+Thêm dòng sau trong file .ahk chính
+```
+#Include AnkiMovies.ahk
+```
+
+Copy file AnkiMovies.ahk(https://github.com/hieuvijjo/AnkiMovies) vào cùng thư mục với file .ahk chính.
