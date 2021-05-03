@@ -17,45 +17,64 @@ https://1drv.ms/u/s!Au96OifgcsxQhvwjeOlMLZ36huYsHA?e=ERFoGK
 7. Review Heatmap
 
 ## FFmpeg
+### Win
 https://www.gyan.dev/ffmpeg/builds/
 
-###Add to the PATH on Windows 10
-https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
-Edit the system environment variables
+### Add to the PATH on Windows 10
+Bật `Edit the system environment variables`
 
+Hướng dẫn chi tiết:
+https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
+
+### Mac
+Bật `Terminal`, dán vào:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Nhấp `Enter`. Đợi chạy xong. dán tiếp:
+```
+brew install ffmpeg
+```
+Đợi chạy xong.
 
 ## mpv
-https://sourceforge.net/projects/mpv-player-windows/files
 Anki mới không cần cài!
 
-###Visual Studio Code
+Nếu dùng Anki cũ, download bản cài tại: https://sourceforge.net/projects/mpv-player-windows/files
+Nhớ thêm `mpv` vào trong `Environment Variables` giống `ffmpeg`
+
+### Visual Studio Code
 https://code.visualstudio.com
 
 Chỉnh config:
-- Run: `%APPDATA%/mpv`
-
-  sub-visibility=no
-  sub-auto=fuzzy
-  slang=eng
-  alang=eng
-  audio-file-auto=fuzzy
-  save-position-on-quit=yes
-  autofit-larger=100%x100%
-  geometry=50%:50%
+Run: `%APPDATA%/mpv`
+Tạo file `mpv.conf`. Dán vào đấy:
+```
+sub-visibility=no
+sub-auto=fuzzy
+slang=eng
+alang=eng
+audio-file-auto=fuzzy
+ave-position-on-quit=yes
+autofit-larger=100%x100%
+geometry=50%:50%
+```
 
 ### Persistent properties:
 https://github.com/d87/mpv-persist-properties
+Chỉnh thêm `speed`.
 
 ## Turn on Clipboard History
-Settings > System > Clipboard
+`Settings > System > Clipboard`
 
-## Sửa lai mục Expression
+## Chỉnh trong Browse
 Advanced Browser: https://ankiweb.net/shared/info/874215009
-### Find and replace:
-\{[^}]*\}
-\s*<[^>]*>\s*
 
-## Tạo và sắp xếp lại các fields
+### Find and replace:
+```\{[^}]*\}```
+```\s*<[^>]*>\s*```
+
+### Tạo và sắp xếp lại các fields
 1. Video
 2. Snapshot
 3. Expression
@@ -70,15 +89,15 @@ Advanced Browser: https://ankiweb.net/shared/info/874215009
 12. Video Sound
 13. Audio Sound
 
-## Chỉnh size của image trong Editor:
+### Chỉnh size của image trong Editor:
 
-Chỉnh file editable.css
+Chỉnh file `editable.css`
 
-Mac:
-/Applications/Anki.app/Contents/Resources/aqt_data/web/css/
+**Mac:**
+`/Applications/Anki.app/Contents/Resources/aqt_data/web/css/`
 
-Win:
-C:\Program Files\Anki\aqt_data\web\css\
+**Win:**
+`C:\Program Files\Anki\aqt_data\web\css\`
 
 CSS Beautifier:
 https://www.freeformatter.com/css-beautifier.html
@@ -92,6 +111,10 @@ https://docs.google.com/spreadsheets/u/0/
 https://tophonetics.com/
 
 ### Tạo hint:
-  =if(or(exact(C1,"), isblank(C1)), ", if(iserr(FIND( , C1)),CONCATENATE(left(C1, 1), ,REGEXREPLACE(mid(C1, 2, len(C1)-2),[a-z], _ ),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,\b , ), \B([a-z]), _)))
-###Tạo google translate
-  =GOOGLETRANSLATE(C1, en, vi)
+```
+=if(or(exact(C1,"), isblank(C1)), ", if(iserr(FIND( , C1)),CONCATENATE(left(C1, 1), ,REGEXREPLACE(mid(C1, 2, len(C1)-2),[a-z], _ ),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,\b , ), \B([a-z]), _)))
+```
+### Tạo google translate
+```
+=GOOGLETRANSLATE(C1, en, vi)
+```
