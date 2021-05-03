@@ -198,7 +198,7 @@ https://tophonetics.com/
 
 `Ctrl + Win + F` – tăng mốc thời gian lên 100ms
 
-`Ctrl + Wind + D` – giảm mốc thời gian xuống 100ms
+`Ctrl + Win + D` – giảm mốc thời gian xuống 100ms
 
 ### Tạo thêm phím tắt ctrl g
 
