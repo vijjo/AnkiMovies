@@ -66,13 +66,16 @@ brew install ffmpeg
 Anki mới không cần cài!
 
 Nếu dùng Anki cũ, download bản cài tại: https://sourceforge.net/projects/mpv-player-windows/files
+
 Nhớ thêm `mpv` vào trong `Environment Variables` giống `ffmpeg`
 
 ### Visual Studio Code
 https://code.visualstudio.com
 
 Chỉnh config:
+
 Run: `%APPDATA%/mpv`
+
 Tạo file `mpv.conf`. Dán vào đấy:
 ```
 sub-visibility=no
