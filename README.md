@@ -38,7 +38,7 @@ Chỉnh Options:
 * `New cards/day`: 9999
 * `Maximum reviews/day`: 9999
 
-Đừng tick
+**Đừng** tick
 * `Always include question side when replaying audio`
 
 ## Cài Add-ons
