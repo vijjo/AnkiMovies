@@ -193,7 +193,7 @@ https://tophonetics.com/
 
 ### Tạo hint
 ```
-=if(or(exact(C1,"), isblank(C1)), ", if(iserr(FIND( , C1)),CONCATENATE(left(C1, 1), ,REGEXREPLACE(mid(C1, 2, len(C1)-2),[a-z], _ ),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,\b , ), \B([a-z]), _)))
+=if(or(exact(C1,""), isblank(C1)), "", if(iserr(FIND(" ", C1)),CONCATENATE(left(C1, 1)," ",REGEXREPLACE(mid(C1, 2, len(C1)-2),"[a-z]", "_ "),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,"\b ", "   "), "\B([a-z])", " _")))
 ```
 ### Tạo google translate
 ```
