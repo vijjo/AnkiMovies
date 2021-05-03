@@ -232,4 +232,4 @@ Thêm dòng sau trong file .ahk chính
 #Include AnkiMovies.ahk
 ```
 
-Copy file [AnkiMovies.ahk](https://github.com/hieuvijjo/AnkiMovies) vào cùng thư mục với file .ahk chính.
+Download code ở đây [AnkiMovies](https://github.com/hieuvijjo/AnkiMovies), giải nén và copy file `AnkiMovies.ahk` vào cùng thư mục với file .ahk chính.
