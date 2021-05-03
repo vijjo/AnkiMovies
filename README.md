@@ -96,8 +96,8 @@ Tạo file `mpv.conf`. Dán vào đấy:
 ```
 sub-visibility=no
 sub-auto=fuzzy
-slang=eng
-alang=eng
+slang=eng,en
+alang=eng,en
 audio-file-auto=fuzzy
 ave-position-on-quit=yes
 autofit-larger=100%x100%
