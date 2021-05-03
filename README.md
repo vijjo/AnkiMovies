@@ -233,7 +233,7 @@ https://tophonetics.com/
 `Ctrl+Shift+,` – chỉnh thời gian bắt đầu quay lại mặc định
 
 `Ctrl+Shift+.` – chỉnh thời gian kết thúc quay lại mặc định
-> Nếu bị trùng với phím trong một video khác mình hướng dẫn tra nhanh `GoldenDict` bằng phím chuột giữa. 
+> Có thể bị trùng với phím trong một video khác mình hướng dẫn tra nhanh `GoldenDict` bằng phím chuột giữa. 
 > Cả nhà thay phím tắt `GoldenDict` sang phím khác, ví dụ `Ctrl+Shift+/`
 
 ### Phím tắt nếu đặt AutoHotkey
