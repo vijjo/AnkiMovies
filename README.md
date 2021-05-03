@@ -149,7 +149,13 @@ Advanced Browser: https://ankiweb.net/shared/info/874215009
 **Win:**
 `C:\Program Files\Anki\aqt_data\web\css\`
 
-Chỉnh file `editable.css`
+Chỉnh file `editable.css`, thêm:
+```
+anki-editable img {
+    max-height: 300px;
+    max-width: 300px;
+}
+```
 
 **CSS Beautifier:**
 https://www.freeformatter.com/css-beautifier.html
