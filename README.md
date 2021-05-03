@@ -86,11 +86,11 @@ https://code.visualstudio.com
 
 ### Chỉnh config
 
-Trong **Win**: run `%APPDATA%/mpv`
+Trong **Win**:
+- run `%APPDATA%/mpv`
 
 Trong **Mac**:
-
-Trong `Finder` trên menubar chọn `Go > Go to folder...`, gõ: `~/.config/mpv/`
+- mở `Finder` trên menubar chọn `Go > Go to folder...`, gõ: `~/.config/mpv/`
 
 Tạo file `mpv.conf`. Dán vào đấy:
 ```
