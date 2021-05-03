@@ -1,6 +1,25 @@
 # AnkiMovies
 
-[TOC]
+## Mục lục
+
+* [Bộ Inception](#bộ-inception)
+* [Cài Add-ons](#cài-add-ons)
+* [FFmpeg](#ffmpeg)
+    * [Win](#win)
+        * [Add to the PATH on Windows 10](#add-to-the-path-on-windows-10)
+    * [Mac](#mac)
+* [mpv](#mpv)
+    * [Visual Studio Code](#visual-studio-code)
+    * [Persistent properties:](#persistent-properties)
+* [Turn on Clipboard History](#turn-on-clipboard-history)
+* [Chỉnh trong Browse](#chỉnh-trong-browse)
+    * [Find and replace:](#find-and-replace)
+    * [Tạo và sắp xếp lại các fields](#tạo-và-sắp-xếp-lại-các-fields)
+    * [Chỉnh size của image trong Editor:](#chỉnh-size-của-image-trong-editor)
+* [Export to csv](#export-to-csv)
+    * [Tạo IPA](#tạo-ipa)
+    * [Tạo hint:](#tạo-hint)
+    * [Tạo google translate](#tạo-google-translate)
 
 
 
@@ -25,7 +44,8 @@ https://1drv.ms/u/s!Au96OifgcsxQhvwjeOlMLZ36huYsHA?e=ERFoGK
 ### Win
 https://www.gyan.dev/ffmpeg/builds/
 
-### Add to the PATH on Windows 10
+#### Add to the PATH on Windows 10
+
 Bật `Edit the system environment variables`
 
 Hướng dẫn chi tiết:
@@ -108,7 +128,7 @@ Chỉnh file `editable.css`
 **Win:**
 `C:\Program Files\Anki\aqt_data\web\css\`
 
-CSS Beautifier:
+**CSS Beautifier:**
 https://www.freeformatter.com/css-beautifier.html
 
 ## Export to csv
