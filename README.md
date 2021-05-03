@@ -122,7 +122,7 @@ properties = "volume,sub-scale,speed",
 
 `Split Long Phrases`: không gộp các subtitle quá dài
 
-Trong `Models`
+Trong `Model`:
 
 * `movies2anki (add-on)`           – Video + Audio
 * `movies2anki (subs2srs)`         – Picture + Audio
