@@ -86,7 +86,11 @@ https://code.visualstudio.com
 
 ### Chỉnh config
 
-Run: `%APPDATA%/mpv`
+Trong **Win**: run `%APPDATA%/mpv`
+
+Trong **Mac**:
+
+Trong `Finder` trên menubar chọn `Go > Go to folder...`, gõ: `~/.config/mpv/`
 
 Tạo file `mpv.conf`. Dán vào đấy:
 ```
@@ -103,7 +107,10 @@ geometry=50%:50%
 ### Persistent properties
 https://github.com/d87/mpv-persist-properties
 
-Chỉnh thêm `speed`.
+Chỉnh thêm `speed` dòng:
+```
+properties = "volume,sub-scale,speed",
+```
 
 ## Turn on Clipboard History
 `Settings > System > Clipboard`
