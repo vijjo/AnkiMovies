@@ -10,7 +10,8 @@
     * [Mac](#mac)
 * [mpv](#mpv)
     * [Visual Studio Code](#visual-studio-code)
-    * [Persistent properties:](#persistent-properties)
+    * [Chỉnh Config](###chỉnh-config)
+    * [Persistent properties](#persistent-properties)
 * [Turn on Clipboard History](#turn-on-clipboard-history)
 * [Chỉnh trong Browse](#chỉnh-trong-browse)
     * [Find and replace](#find-and-replace)
@@ -72,7 +73,7 @@ Nhớ thêm `mpv` vào trong `Environment Variables` giống `ffmpeg`
 ### Visual Studio Code
 https://code.visualstudio.com
 
-Chỉnh config:
+### Chỉnh config
 
 Run: `%APPDATA%/mpv`
 
@@ -88,7 +89,7 @@ autofit-larger=100%x100%
 geometry=50%:50%
 ```
 
-### Persistent properties:
+### Persistent properties
 https://github.com/d87/mpv-persist-properties
 Chỉnh thêm `speed`.
 
