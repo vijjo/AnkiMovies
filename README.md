@@ -1,5 +1,7 @@
 # AnkiMovies
 
+Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
+
 ## Mục lục
 
 * [Bộ Inception](#bộ-inception)
