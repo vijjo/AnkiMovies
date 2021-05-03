@@ -123,10 +123,11 @@ properties = "volume,sub-scale,speed",
 `Split Long Phrases`: không gộp các subtitle quá dài
 
 Trong `Models`
-• `movies2anki (add-on)`           – Video + Audio
-• `movies2anki (subs2srs)`         – Picture + Audio
-• `movies2anki (subs2srs - video)` – Video + Audio (desktop) / HTML5 Video + Audio (mobile)
-• `movies2anki (subs2srs - audio)` – Audio
+
+* `movies2anki (add-on)`           – Video + Audio
+* `movies2anki (subs2srs)`         – Picture + Audio
+* `movies2anki (subs2srs - video)` – Video + Audio (desktop) / HTML5 Video + Audio (mobile)
+* `movies2anki (subs2srs - audio)` – Audio
 
 
 ## Chỉnh trong Browse
