@@ -26,7 +26,8 @@
 
 ## Bộ Inception
 
-https://1drv.ms/u/s!Au96OifgcsxQhvwjeOlMLZ36huYsHA?e=ERFoGK
+[Link download](https://1drv.ms/u/s!Au96OifgcsxQhvwjeOlMLZ36huYsHA?e=ERFoGK)
+
 Chỉnh `Options`:
 * New cards/day: 9999
 * Maximum reviews/day: 9999
