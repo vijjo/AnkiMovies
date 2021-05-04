@@ -26,7 +26,8 @@ Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
     * [Phím tắt Watch Foreign Language Movies with Anki](#phím-tắt-watch-foreign-language-movies-with-anki)
     * [Phím tắt nếu đặt AutoHotkey](#phím-tắt-nếu-đặt-autohotkey)
     * [Tạo thêm phím tắt ctrl+g](#tạo-thêm-phím-tắt-ctrl-g)
-* [AutoHotkey](#autohotkey)
+* [AutoHotkey (Win)](#autohotkey)
+* [Keyboard-Maestro (Mac)](#keyboard-maestro)
 
 
 
@@ -267,3 +268,8 @@ Thêm dòng sau trong file .ahk chính
 ```
 
 Download code ở đây [AnkiMovies](https://github.com/hieuvijjo/AnkiMovies), giải nén và copy file `AnkiMovies.ahk` vào cùng thư mục với file .ahk chính.
+
+## Keyboard Maestro
+Link: https://www.keyboardmaestro.com/
+
+File macros download tại: [AnkiMovies](https://github.com/hieuvijjo/AnkiMovies)
