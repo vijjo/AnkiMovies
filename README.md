@@ -211,23 +211,20 @@ https://tophonetics.com/
 ## Phím tắt
 
 ### Phím tắt Watch Foreign Language Movies with Anki
+
 * `R` – chơi lại
 * `Ctrl+R` – chơi lại video
 * `Shift+R` - chơi liên tục
-
-
+---
 * `[` - chơi lại card hiện tại và card trước
 * `]` - chơi lại card hiện tại và card tiếp theo
 * `Shift+[` - gộp card hiện tại và card trước
 * `Shift+]` - gộp card hiện tại và card sau
-
-
+---
 * `,` – chỉnh mpv chơi sớm 0.25s
 * `.` – chỉnh mpv chơi muộn 0.25s
 * `<` (`Shift+,`) – chỉnh mpv kết thúc sớm 0.25s
 * `>` (`Shift+.`) – chỉnh mpv kết thúc muộn 0.25s
-
-
 * `Ctrl+Shift+,` – chỉnh thời gian bắt đầu quay lại mặc định
 * `Ctrl+Shift+.` – chỉnh thời gian kết thúc quay lại mặc định
 
