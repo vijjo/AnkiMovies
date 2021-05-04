@@ -256,7 +256,7 @@ action.setShortcut(QKeySequence('ctrl+g'))
 action.triggered.connect(handleOpenAudios)
 menu.addAction(action)
 ```
-Nếu vẫn không được. Cả nhà nên chắc trong Anki phần `Tools > Edit audios in editor > Config` mình đã chọn đường dẫn đúng đến `Audacity.exe`.
+Nếu vẫn không được, cả nhà nên chắc trong Anki phần `Tools > Edit audios in editor > Config` mình đã chọn đường dẫn đúng đến `Audacity.exe`.
 
 ## AutoHotkey
 Thêm dòng sau trong file .ahk chính
