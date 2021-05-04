@@ -185,7 +185,7 @@ Nếu bị lỗi **You do not have permission to open this file. Please see the 
 * Chỉnh file ở chỗ khác đấy, lưu lại.
 * Copy ngược lạ file `editable.css` đã chỉnh đè vào file ở thư mục gốc.
 
-Nếu vẫn không được thử các cách trong: [Cách sửa lỗi you don't have permission to save in this location](https://laptopcudanang.com.vn/cach-sua-loi-you-dont-have-permission-to-save-in-this-location)
+Nếu vẫn không được thử: [Cách sửa lỗi you don't have permission](https://quantrimang.com/sua-loi-you-need-permission-to-perform-this-action-trong-windows-10-8-1-va-7-159425)
 
 **CSS Beautifier:**
 https://www.freeformatter.com/css-beautifier.html
