@@ -121,7 +121,7 @@ properties = "volume,sub-scale,speed",
 ```
 
 ## Turn on Clipboard History
-`Settings > System > Clipboard`
+Nhấp `Win+i` để vào `Settings`, chọn `System > Clipboard`. Bật `Clipboard History` lên.
 
 ## Chỉnh Generate Video Cards
 `Pad Timings`: đệm thêm thời gian vào đầu/cuối mỗi subtitle
