@@ -25,6 +25,7 @@ Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
 * [Phím tắt](#phím-tắt)
     * [Phím tắt Watch Foreign Language Movies with Anki](#phím-tắt-watch-foreign-language-movies-with-anki)
     * [Phím tắt nếu đặt AutoHotkey/Keyboard Maestro](#phím-tắt-nếu-đặt-autohotkey-win-keyboard-maestro-mac)
+    * [Chỉnh tốc độ chơi video](#chỉnh-tốc-độ-chơi-video)
     * [Tạo thêm phím tắt ctrl+g](#tạo-thêm-phím-tắt-ctrl-g)
 * [AutoHotkey (Win)](#autohotkey)
 * [Keyboard-Maestro (Mac)](#keyboard-maestro)
