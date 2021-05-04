@@ -19,9 +19,9 @@ Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
     * [Tạo và sắp xếp lại các fields](#tạo-và-sắp-xếp-lại-các-fields)
     * [Chỉnh size của image trong Editor](#chỉnh-size-của-image-trong-editor)
 * [Export to csv](#export-to-csv)
+    * [Tạo google translate](#tạo-google-translate)
     * [Tạo IPA](#tạo-ipa)
     * [Tạo hint](#tạo-hint)
-    * [Tạo google translate](#tạo-google-translate)
 * [Phím tắt](#phím-tắt)
     * [Phím tắt Watch Foreign Language Movies with Anki](#phím-tắt-watch-foreign-language-movies-with-anki)
     * [Phím tắt nếu đặt AutoHotkey](#phím-tắt-nếu-đặt-autohotkey)
@@ -195,16 +195,16 @@ https://www.freeformatter.com/css-beautifier.html
 Google Sheets:
 https://docs.google.com/spreadsheets/u/0/
 
+### Tạo google translate
+```
+=GOOGLETRANSLATE(C1, "en", "vi")
+```
 ### Tạo IPA
 https://tophonetics.com/
 
 ### Tạo hint
 ```
 =if(or(exact(C1,""), isblank(C1)), "", if(iserr(FIND(" ", C1)),CONCATENATE(left(C1, 1)," ",REGEXREPLACE(mid(C1, 2, len(C1)-2),"[a-z]", "_ "),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,"\b ", "   "), "\B([a-z])", " _")))
-```
-### Tạo google translate
-```
-=GOOGLETRANSLATE(C1, "en", "vi")
 ```
 
 ## Phím tắt
