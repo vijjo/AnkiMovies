@@ -183,7 +183,7 @@ Nếu bị lỗi **You do not have permission to open this file. Please see the 
 * Tắt `Anki` đi.
 * Copy file `editable.css` tạm ra chỗ khác, ví dụ ra `Desktop`
 * Chỉnh file ở chỗ khác đấy, lưu lại.
-* Copy ngược lạ file `editable.css` đã chỉnh đè vào file ở thư mục gốc.
+* Lấy file `editable.css` đã chỉnh copy ngược lại đè vào file ở thư mục gốc.
 
 Nếu vẫn không được thử: [Cách sửa lỗi you don't have permission](https://quantrimang.com/sua-loi-you-need-permission-to-perform-this-action-trong-windows-10-8-1-va-7-159425)
 
