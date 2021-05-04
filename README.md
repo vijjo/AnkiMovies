@@ -24,7 +24,7 @@ Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
     * [Tạo hint](#tạo-hint)
 * [Phím tắt](#phím-tắt)
     * [Phím tắt Watch Foreign Language Movies with Anki](#phím-tắt-watch-foreign-language-movies-with-anki)
-    * [Phím tắt nếu đặt AutoHotkey](#phím-tắt-nếu-đặt-autohotkey)
+    * [Phím tắt nếu đặt AutoHotkey/Keyboard Maestro](#phím-tắt-nếu-đặt-autohotkey-win-keyboard-maestro-mac)
     * [Tạo thêm phím tắt ctrl+g](#tạo-thêm-phím-tắt-ctrl-g)
 * [AutoHotkey (Win)](#autohotkey)
 * [Keyboard-Maestro (Mac)](#keyboard-maestro)
@@ -239,15 +239,25 @@ https://tophonetics.com/
 > Có thể bị trùng với phím trong một video khác mình hướng dẫn tra nhanh `GoldenDict` bằng phím chuột giữa. 
 > Cả nhà thay phím tắt `GoldenDict` sang phím khác, ví dụ `Ctrl+Shift+/`
 
-### Phím tắt nếu đặt AutoHotkey
+### Phím tắt nếu đặt AutoHotkey (Win)/ Keyboard Maestro (Mac)
 
-`Ctrl + F` – tăng mốc thời gian lên 200ms
+`Ctrl + f` – tăng mốc thời gian lên 200ms (Mac: `Cmd + f`)
 
-`Ctrl + D` – giảm mốc thời gian đi 200ms
+`Ctrl + d` – giảm mốc thời gian đi 200ms (Mac: `Cmd + d`)
 
-`Ctrl + Win + F` – tăng mốc thời gian lên 100ms
+`Ctrl + Win + f` – tăng mốc thời gian lên 100ms (Mac: `Cmd + Ctrl + f`)
 
-`Ctrl + Win + D` – giảm mốc thời gian xuống 100ms
+`Ctrl + Win + d` – giảm mốc thời gian xuống 100ms (Mac: `Cmd + Ctrl + d`)
+
+### Chỉnh tốc độ chơi video
+Ngay khi video bật, cửa sổ `mpv` vẫn mở, cả nhà nhấp nhanh:
+* `[` – giảm tốc độ 10%
+* `]` – tăng tốc độ 10%
+* `{` - giảm tốc độ 50%
+* `}` – tăng tốc độ 50%
+* `Del/Backspace` – quay lại tốc độ ban đầu.
+
+Hướng dẫn thêm, xem [video này]().
 
 ### Tạo thêm phím tắt ctrl g
 Sửa trong file của **Edit audios in the external editor**, thêm:
