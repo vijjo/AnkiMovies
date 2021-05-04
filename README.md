@@ -227,12 +227,11 @@ https://tophonetics.com/
 * `>` (`Shift+.`) – chỉnh mpv kết thúc muộn 0.25s
 * `Ctrl+Shift+,` – chỉnh thời gian bắt đầu quay lại mặc định
 * `Ctrl+Shift+.` – chỉnh thời gian kết thúc quay lại mặc định
-
-> Có thể bị trùng với phím trong một video khác mình hướng dẫn tra nhanh `GoldenDict` bằng phím chuột giữa. 
-> Cả nhà thay phím tắt `GoldenDict` sang phím khác, ví dụ `Ctrl+Shift+/`
+---
+Có thể bị trùng với phím trong một video khác mình hướng dẫn tra nhanh `GoldenDict` bằng phím chuột giữa. 
+Cả nhà thay phím tắt `GoldenDict` sang phím khác, ví dụ `Ctrl+Shift+/`
 
 ### Phím tắt nếu đặt AutoHotkey (Win)/ Keyboard Maestro (Mac)
-
 * `Ctrl + f` – tăng mốc thời gian lên 200ms *(Mac: `Cmd + f`)*
 * `Ctrl + d` – giảm mốc thời gian đi 200ms *(Mac: `Cmd + d`)*
 * `Ctrl + Win + f` – tăng mốc thời gian lên 100ms *(Mac: `Cmd + Ctrl + f`)*
@@ -246,7 +245,7 @@ Ngay khi video bật, cửa sổ `mpv` vẫn mở, cả nhà nhấp nhanh:
 * `}` – tăng tốc độ 50%
 * `Del/Backspace` – quay lại tốc độ ban đầu.
 
-Hướng dẫn thêm, xem [video này]().
+Hướng dẫn thêm, xem [video này](https://youtu.be/We8PxablP00?t=420).
 
 ### Tạo thêm phím tắt ctrl g
 Sửa trong file của **Edit audios in the external editor**, thêm:
