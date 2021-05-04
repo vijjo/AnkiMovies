@@ -256,7 +256,7 @@ action.setShortcut(QKeySequence('ctrl+g'))
 action.triggered.connect(handleOpenAudios)
 menu.addAction(action)
 ```
-LƯU Ý: bước dùng Audacity CHỈ SAU KHI ĐÃ `Tools > Generate Mobile Cards...` mới làm được nhé. Khi vẫn còn `dòng để chỉnh lại thời gian` sẽ không làm được.
+LƯU Ý: bước dùng Audacity **CHỈ SAU KHI ĐÃ** `Tools > Generate Mobile Cards...` mới làm được nhé. Khi vẫn còn `dòng để chỉnh lại thời gian` sẽ không làm được.
 
 Nếu vẫn không được, cả nhà nên chắc trong Anki phần `Tools > Edit audios in editor > Config` mình đã chọn đường dẫn đúng đến `Audacity.exe`.
 
