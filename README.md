@@ -211,43 +211,35 @@ https://tophonetics.com/
 ## Phím tắt
 
 ### Phím tắt Watch Foreign Language Movies with Anki
-`R` – chơi lại
+* `R` – chơi lại
+* `Ctrl+R` – chơi lại video
+* `Shift+R` - chơi liên tục
 
-`Ctrl+R` – chơi lại video
 
-`Shift+R` - chơi liên tục
+* `[` - chơi lại card hiện tại và card trước
+* `]` - chơi lại card hiện tại và card tiếp theo
+* `Shift+[` - gộp card hiện tại và card trước
+* `Shift+]` - gộp card hiện tại và card sau
 
-`[` - chơi lại card hiện tại và card trước
 
-`]` - chơi lại card hiện tại và card tiếp theo
+* `,` – chỉnh mpv chơi sớm 0.25s
+* `.` – chỉnh mpv chơi muộn 0.25s
+* `<` (`Shift+,`) – chỉnh mpv kết thúc sớm 0.25s
+* `>` (`Shift+.`) – chỉnh mpv kết thúc muộn 0.25s
 
-`Shift+[` - gộp card hiện tại và card trước
 
-`Shift+]` - gộp card hiện tại và card sau
+* `Ctrl+Shift+,` – chỉnh thời gian bắt đầu quay lại mặc định
+* `Ctrl+Shift+.` – chỉnh thời gian kết thúc quay lại mặc định
 
-`,` – chỉnh mpv chơi sớm 0.25s
-
-`.` – chỉnh mpv chơi muộn 0.25s
-
-`<` (`Shift+,`) – chỉnh mpv kết thúc sớm 0.25s
-
-`>` (`Shift+.`) – chỉnh mpv kết thúc muộn 0.25s
-
-`Ctrl+Shift+,` – chỉnh thời gian bắt đầu quay lại mặc định
-
-`Ctrl+Shift+.` – chỉnh thời gian kết thúc quay lại mặc định
 > Có thể bị trùng với phím trong một video khác mình hướng dẫn tra nhanh `GoldenDict` bằng phím chuột giữa. 
 > Cả nhà thay phím tắt `GoldenDict` sang phím khác, ví dụ `Ctrl+Shift+/`
 
 ### Phím tắt nếu đặt AutoHotkey (Win)/ Keyboard Maestro (Mac)
 
-`Ctrl + f` – tăng mốc thời gian lên 200ms (Mac: `Cmd + f`)
-
-`Ctrl + d` – giảm mốc thời gian đi 200ms (Mac: `Cmd + d`)
-
-`Ctrl + Win + f` – tăng mốc thời gian lên 100ms (Mac: `Cmd + Ctrl + f`)
-
-`Ctrl + Win + d` – giảm mốc thời gian xuống 100ms (Mac: `Cmd + Ctrl + d`)
+* `Ctrl + f` – tăng mốc thời gian lên 200ms *(Mac: `Cmd + f`)*
+* `Ctrl + d` – giảm mốc thời gian đi 200ms *(Mac: `Cmd + d`)*
+* `Ctrl + Win + f` – tăng mốc thời gian lên 100ms *(Mac: `Cmd + Ctrl + f`)*
+* `Ctrl + Win + d` – giảm mốc thời gian xuống 100ms *(Mac: `Cmd + Ctrl + d`)*
 
 ### Chỉnh tốc độ chơi video
 Ngay khi video bật, cửa sổ `mpv` vẫn mở, cả nhà nhấp nhanh:
