@@ -151,6 +151,8 @@ Advanced Browser: https://ankiweb.net/shared/info/874215009
 \s*<[^>]*>\s*
 ```
 
+Cả nhà tham khảo cả: [Xoá các card tiếng ồn khi tạo Anki phim](https://youtu.be/wdwIG0wsyoA)
+
 ### Tạo và sắp xếp lại các fields
 1. Video
 2. Snapshot
