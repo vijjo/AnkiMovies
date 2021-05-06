@@ -197,6 +197,8 @@ https://www.freeformatter.com/css-beautifier.html
 Google Sheets:
 https://docs.google.com/spreadsheets/u/0/
 
+Nếu code bên dưới bị lỗi cả nhà xem thêm: [Sửa lỗi ERROR trong Google Sheets khi tạo Anki cards](https://youtu.be/mvIdNaZueSU)
+
 ### Tạo google translate
 ```
 =GOOGLETRANSLATE(C1, "en", "vi")
