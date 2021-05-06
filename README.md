@@ -70,7 +70,7 @@ Bật `Terminal`, dán vào:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-Nhấp `Enter`. Đợi chạy xong. dán tiếp:
+Nhấp `Enter`. Nhấp `password` máy mac của bạn khi cần. Đợi chạy xong. dán tiếp:
 ```
 brew install ffmpeg
 ```
