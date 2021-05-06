@@ -86,7 +86,7 @@ Nhớ thêm `mpv` vào trong `Environment Variables` giống `ffmpeg`
 ### Visual Studio Code
 https://code.visualstudio.com
 
-### Chỉnh config
+### Chỉnh config mpv
 
 Trong **Win**:
 - run `%APPDATA%/mpv`
