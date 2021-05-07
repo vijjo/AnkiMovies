@@ -89,7 +89,7 @@ https://code.visualstudio.com
 ### Chỉnh config mpv
 
 Trong **Win**:
-- run `%APPDATA%/mpv`
+- run `%APPDATA%\mpv`
 
 Nếu không có thư mục `mpv`, chịu khó làm theo bước sau:
 
