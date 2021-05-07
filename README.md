@@ -199,11 +199,13 @@ https://www.freeformatter.com/css-beautifier.html
 Google Sheets:
 https://docs.google.com/spreadsheets/u/0/
 
-Nếu code bên dưới bị lỗi cả nhà xem thêm: [Sửa lỗi ERROR trong Google Sheets khi tạo Anki cards](https://youtu.be/mvIdNaZueSU)
-
 ### Tạo google translate
 ```
 =GOOGLETRANSLATE(C1, "en", "vi")
+```
+hoặc
+```
+=GOOGLETRANSLATE(C1; "en"; "vi")
 ```
 ### Tạo IPA
 https://tophonetics.com/
@@ -212,6 +214,11 @@ https://tophonetics.com/
 ```
 =if(or(exact(C1,""), isblank(C1)), "", if(iserr(FIND(" ", C1)),CONCATENATE(left(C1, 1)," ",REGEXREPLACE(mid(C1, 2, len(C1)-2),"[a-z]", "_ "),right(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,"\b ", "   "), "\B([a-z])", " _")))
 ```
+hoặc
+```
+=IF(OR(EXACT(C1; ""), ISBLANK(C1)); ""; IF(ISERR(FIND(" "; C1)); CONCATENATE(LEFT(C1; 1); " "; REGEXREPLACE(MID(C1; 2; LEN(C1)-2); "[a-z]"; "_ "); RIGHT(C1; 1)); REGEXREPLACE(REGEXREPLACE(C1; "\b "; "   "); "\B([a-z])"; " _")))
+```
+Nếu code bên dưới bị lỗi cả nhà xem thêm: [Sửa lỗi ERROR trong Google Sheets khi tạo Anki cards](https://youtu.be/mvIdNaZueSU)
 
 ## Phím tắt
 
