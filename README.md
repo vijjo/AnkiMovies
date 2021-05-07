@@ -200,6 +200,7 @@ Google Sheets:
 https://docs.google.com/spreadsheets/u/0/
 
 ### Tạo google translate
+thử
 ```
 =GOOGLETRANSLATE(C1, "en", "vi")
 ```
@@ -211,6 +212,7 @@ hoặc
 https://tophonetics.com/
 
 ### Tạo hint
+thử
 ```
 =IF(OR(EXACT(C1, ""), ISBLANK(C1)), "", IF(ISERR(FIND(" ", C1)),CONCATENATE(LEFT(C1, 1)," ",REGEXREPLACE(MID(C1, 2, LEN(C1)-2),"[a-z]", "_ "),RIGHT(C1, 1)),REGEXREPLACE(REGEXREPLACE(C1,"\b ", "   "), "\B([a-z])", " _")))
 ```
@@ -218,7 +220,7 @@ hoặc
 ```
 =IF(OR(EXACT(C1; ""), ISBLANK(C1)); ""; IF(ISERR(FIND(" "; C1)); CONCATENATE(LEFT(C1; 1); " "; REGEXREPLACE(MID(C1; 2; LEN(C1)-2); "[a-z]"; "_ "); RIGHT(C1; 1)); REGEXREPLACE(REGEXREPLACE(C1; "\b "; "   "); "\B([a-z])"; " _")))
 ```
-Nếu code bên dưới bị lỗi cả nhà xem thêm: [Sửa lỗi ERROR trong Google Sheets khi tạo Anki cards](https://youtu.be/mvIdNaZueSU)
+Nếu vẫn bị lỗi cả nhà xem thêm: [Sửa lỗi ERROR trong Google Sheets khi tạo Anki cards](https://youtu.be/mvIdNaZueSU)
 
 ## Phím tắt
 
