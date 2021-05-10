@@ -176,6 +176,9 @@ Cả nhà tham khảo cả: [Xoá các card tiếng ồn khi tạo Anki phim](ht
 **Win:**
 `C:\Program Files\Anki\aqt_data\web\css\`
 
+**CSS Beautifier:**
+https://www.freeformatter.com/css-beautifier.html
+
 Chỉnh file `editable.css`, thêm:
 ```
 anki-editable img {
@@ -191,8 +194,6 @@ Nếu bị lỗi **You do not have permission to open this file. Please see the 
 
 Nếu vẫn không được thử: [Cách sửa lỗi you don't have permission](https://quantrimang.com/sua-loi-you-need-permission-to-perform-this-action-trong-windows-10-8-1-va-7-159425)
 
-**CSS Beautifier:**
-https://www.freeformatter.com/css-beautifier.html
 
 ## Export to csv
 
