@@ -11,7 +11,7 @@ Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
     * [Mac](#mac)
 * [mpv](#mpv)
     * [Visual Studio Code](#visual-studio-code)
-    * [Chỉnh Config](#chỉnh-config)
+    * [Chỉnh config mpv](#chỉnh-config-mpv)
     * [Persistent properties](#persistent-properties)
 * [Turn on Clipboard History](#turn-on-clipboard-history)
 * [Chỉnh trong Browse](#chỉnh-trong-browse)
