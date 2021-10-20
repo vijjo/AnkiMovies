@@ -1,6 +1,7 @@
 # AnkiMovies
 
 Link video hướng dẫn: https://youtu.be/Y7uIJuKIxO4
+
 Hướng dẫn thêm cho Mac: https://youtu.be/We8PxablP00
 
 ## Mục lục
